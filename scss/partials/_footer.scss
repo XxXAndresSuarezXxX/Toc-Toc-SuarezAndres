@@ -1,24 +1,28 @@
-.color-gris-claro{
-    background-color: gray;
-    color:white;
-    -webkit-text-stroke: 0.2px black;
-    margin-top: 50px;
+footer {
+    .color-gris-claro {
+        background-color: gray;
+        color: white;
+        -webkit-text-stroke: 0.2px black;
+        margin-top: 50px;
 
-}
+        .copy-black {
+            background-color: black;
+        }
+    }
 
-.copy-gris{
-    background-color: rgb(88, 87, 87);
-    color: white;
-    -webkit-text-stroke: 0.2px black;
-    text-decoration: none;
-}
+    .copy-gris {
+        background-color: rgb(88, 87, 87);
+        color: white;
+        -webkit-text-stroke: 0.2px black;
+        text-decoration: none;
+    }
 
-.copy-black{
-    background-color: black;
-}
-.enlace-footer{
-    text-decoration: none;
-}
-.enlaces{
-    width: 35px;
+    .enlace-footer {
+        text-decoration: none;
+    }
+
+    .enlaces {
+        width: 35px;
+    }
+
 }
