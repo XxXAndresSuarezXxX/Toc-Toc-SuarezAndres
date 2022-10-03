@@ -4,10 +4,9 @@
     margin-top: 50px;
 }
 .imagenCarrusel{
-    width: 500px;
-    height: 500px;
+    @include sizes(500px, 500px)
 }
 .carousel-item{
-    width: 500px;
-    height: 500px;
+    @include sizes(500px, 500px)
+    
 }

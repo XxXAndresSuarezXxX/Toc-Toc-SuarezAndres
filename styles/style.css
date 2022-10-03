@@ -1,23 +1,34 @@
 @charset "UTF-8";
-.color-gris-claro {
+/*-------mixin----*/
+/*---------maps--------*/
+.fa-instagram {
+  color: #af00db; }
+
+.fa-whatsapp {
+  color: #00ff2a; }
+
+.fa-envelope {
+  color: #ff1616; }
+
+/*-----map get-----*/
+footer .color-gris-claro {
   background-color: gray;
   color: white;
   -webkit-text-stroke: 0.2px black;
   margin-top: 50px; }
+  footer .color-gris-claro .copy-black {
+    background-color: black; }
 
-.copy-gris {
+footer .copy-gris {
   background-color: #585757;
   color: white;
   -webkit-text-stroke: 0.2px black;
   text-decoration: none; }
 
-.copy-black {
-  background-color: black; }
-
-.enlace-footer {
+footer .enlace-footer {
   text-decoration: none; }
 
-.enlaces {
+footer .enlaces {
   width: 35px; }
 
 header nav .color-header {
