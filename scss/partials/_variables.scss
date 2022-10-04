@@ -1,24 +1,11 @@
-/*-------mixin----*/
-@mixin sizes($width, $heigth){
-    width: $width;
-    height: $heigth;
-}
+$three-color:rgb(88, 87, 87);
+$primary-color: #252e3e;
+$secondary-color: #386ae8;
+$box-color: #3b414e;
+$light: #ffffff;
 
-/*---------maps--------*/
-$redes:(
-    instagram: rgb(175, 0, 219),
-    whatsapp: rgb(0, 255, 42),
-    envelope: rgb(255, 22, 22)
-);
 
-@each $red, $color in $redes{
-    .fa-#{$red}{
-        color: $color;
-    }
-}
-/*-----map get-----*/
-$estilos:(
-    chiquito: 10px,
-    mediano: 20px,
-    grande: 40px
-);
+
+
+
+

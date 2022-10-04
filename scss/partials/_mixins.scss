@@ -1,0 +1,9 @@
+@mixin button {
+    background-color: $secondary-color;
+    padding: 1em 2em;
+    border-radius: 20px;
+  }
+  @mixin sizes($width, $heigth){
+    width: $width;
+    height: $heigth;
+}

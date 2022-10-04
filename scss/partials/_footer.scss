@@ -11,7 +11,7 @@ footer {
     }
 
     .copy-gris {
-        background-color: rgb(88, 87, 87);
+        background-color: $three-color;
         color: white;
         -webkit-text-stroke: 0.2px black;
         text-decoration: none;
@@ -23,6 +23,11 @@ footer {
 
     .enlaces {
         width: 35px;
+    }
+    .enlaces_animacion{
+        @extend .enlaces;
+        border: 3px solid rgb(139, 50, 18);
+        border-radius: 40%;
     }
 
 }

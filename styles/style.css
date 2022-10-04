@@ -1,16 +1,4 @@
 @charset "UTF-8";
-/*-------mixin----*/
-/*---------maps--------*/
-.fa-instagram {
-  color: #af00db; }
-
-.fa-whatsapp {
-  color: #00ff2a; }
-
-.fa-envelope {
-  color: #ff1616; }
-
-/*-----map get-----*/
 footer .color-gris-claro {
   background-color: gray;
   color: white;
@@ -28,8 +16,12 @@ footer .copy-gris {
 footer .enlace-footer {
   text-decoration: none; }
 
-footer .enlaces {
+footer .enlaces, footer .enlaces_animacion {
   width: 35px; }
+
+footer .enlaces_animacion {
+  border: 3px solid #8b3212;
+  border-radius: 40%; }
 
 header nav .color-header {
   background-color: pink; }
